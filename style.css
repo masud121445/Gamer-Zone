@@ -276,6 +276,7 @@ span{
     justify-content: center;
     align-items: center;
     gap:10px;
+    outline:none;
 }
 .btn-games:hover{
     border:1px solid #ff42a5;
