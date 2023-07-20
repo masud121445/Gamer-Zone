@@ -422,8 +422,14 @@ span{
         grid-template-columns: repeat(3,1fr);
     }
     .web-icon{
+        width:100%;
+        margin:0;
         display:grid;
         grid-template-columns: repeat(2,1fr);
+        margin-left: 50px;
+    }
+    .web-icon i{
+        padding:10px;
     }
     .web-rules{
         display:grid;
