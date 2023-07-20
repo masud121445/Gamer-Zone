@@ -140,6 +140,8 @@ span{
 }
 .container{
     position: relative;
+    height: 288px;
+    width:252px;
 }
 
 .text {
@@ -360,7 +362,10 @@ span{
     .bonus-card img{
         width:100%;
         height: auto;
-        margin-top:50px;
+    }
+    .container{
+        height:440px;
+        width:380px;
     }
     .instantly-play-section{
         margin-top:20px;
