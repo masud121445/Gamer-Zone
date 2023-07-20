@@ -49,14 +49,14 @@ span{
     margin-left:10px;
 }
 .youtube-icon{
+    font-size:22px;
+    color:red;
+}
+.tiktok-icon{
     font-size:18px;
     background-image: linear-gradient(to left,#04807c,#69001e);
     color:transparent;
     -webkit-background-clip: text;
-}
-.tiktok-icon{
-    font-size:18px;
-    color:#04807c;
 }
 .banner-continer{
     display:flex;
