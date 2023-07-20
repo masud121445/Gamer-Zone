@@ -320,11 +320,16 @@ span{
     font-size:13px;
     color:rgba(255, 255, 255, 0.437);
 }
-
+.web-icon{
+    display:flex;
+    width:45%;
+    margin:auto;
+    padding:20px;
+}
 .web-icon i{
-    font-size:30px;
-    padding:50px 10px;
-
+    justify-content: space-around;
+    padding:30px;
+    font-size:2rem;
 }
 .web-icon a{
     text-decoration: none;
@@ -418,9 +423,7 @@ span{
     }
     .web-icon{
         display:grid;
-        grid-template-columns: repeat(1,1fr);
-        width:40%;
-        margin:auto;
+        grid-template-columns: repeat(2,1fr);
     }
     .web-rules{
         display:grid;
@@ -508,12 +511,6 @@ span{
     .web-service{
         display:grid;
         grid-template-columns: repeat(3,1fr);
-    }
-    .web-icon{
-        display:grid;
-        grid-template-columns: repeat(2,1fr);
-        width:40%;
-        margin:auto;
     }
     .web-rules{
         display:grid;
