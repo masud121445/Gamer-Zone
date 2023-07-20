@@ -49,8 +49,10 @@ span{
     margin-left:10px;
 }
 .youtube-icon{
-    font-size:22px;
-    color:red;
+    font-size:18px;
+    background-image: linear-gradient(to left,#04807c,#69001e);
+    color:transparent;
+    -webkit-background-clip: text;
 }
 .tiktok-icon{
     font-size:18px;
@@ -74,8 +76,11 @@ span{
 }
 .banner-title{
     font-size:4rem;
-    color:#c250d1;
+    background-image: linear-gradient(to top,#df4cc1,#ab53dd);
+    color:transparent;
+    -webkit-background-clip: text;
     padding-top:10px;
+    font-weight: 800;
 }
 .banner-description{
     font-size:15px;
@@ -347,21 +352,29 @@ span{
     .banner-continer{
         flex-direction: column;
         margin-top:200px;
+        width:100%;
     }
     .banner-content{
         margin:0 auto;
     }
     .banner-image{
         padding-top:50px;
+        width:100%;
     }
-   
+    .frame-img{
+        width:100%;
+    }
+    .bonus-part{
+        margin-top:20px;
+    }
     .bonus-image-part{
         grid-template-columns: 1fr;
         margin:0 auto;
+        width:100%;
     }
     .bonus-card img{
         width:100%;
-        height: auto;
+        margin:0 auto;
     }
     .container{
         height:440px;
@@ -396,7 +409,7 @@ span{
         width:100%;
     }
     .games-container{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
     
     .web-service{
@@ -417,26 +430,39 @@ span{
 @media screen and (min-width:576px) and (max-width:992px){
     .nav-part{
         flex-direction: column;
+        justify-content: center;
         margin-top: 50px;
         margin-bottom:50px;
         box-shadow: none;
     }
     .banner-continer{
         flex-direction: column;
-        margin-top:50px;
-    }
-    .banner-continer{
-        flex-direction: column;
-        margin-top:200px;
+        margin-top:50px;       
     }
     .banner-content{
         margin:0 auto;
     }
     .banner-image{
         padding-top:50px;
+        width:60%;
+        margin:0 auto;
+    }
+    .frame-img{
+        width: 100%;
+        margin:0 auto;
+    }
+    .bonus-title{
+        width:100%;
     }
     .bonus-image-part{
+        display:grid;
         grid-template-columns: repeat(2,1fr);
+        width:50%;
+        margin:0 auto;
+        padding-right:80px;
+    }
+    .bonus-card img{
+        width:100%;
         margin:0 auto;
     }
     .careers-section{
@@ -458,20 +484,39 @@ span{
     }
     .instantly-play-section{
         margin-top:20px;
+        
     }
     .instantly-play-image{
-       width:80%;
+       width:100%;
        margin:auto;
-       padding-left:20px;
+       padding-left:40px;
     }
     .anniversary{
-        width:80%;
+        width:60%;
+        padding-left:40px;
+
     }
     .my-talking{
-        margin-left:-80px;
+        margin-left:1px;
         width:50%;
     }
     .games-container{
         grid-template-columns: repeat(3,1fr);
+        width:100%;
+        margin:auto;
+    }
+    .web-service{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .web-icon{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        width:40%;
+        margin:auto;
+    }
+    .web-rules{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
     }
 }
